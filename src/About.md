@@ -1,7 +1,6 @@
 ![alt](/images/vmui.png)
 
 # Developing Vending Machine UIs using VMUI
-
 Vorachet Jaroensawas | AOT
 
 ## Online Demo Apps
@@ -15,12 +14,12 @@ Key operational actors and entities were analyzed to see what the users of vendi
 Fig 1. The structural concept of target vending machine
 
 ![concept](/images/concept.png)
-![concept](./public/images/concept.png)
+![concept](../public/images/concept.png)
 
 Fig 2. Operations of Interest
 
 ![OpsProcesses](/images/OpsProcesses.png))
-![OpsProcesses](./public/images/OpsProcesses.png)
+![OpsProcesses](../public/images/OpsProcesses.png)
 
 ## 1.1 The operations of vending machines and their associations with actors 
 
@@ -150,7 +149,7 @@ To have flexibility in the development of different vending machine assortments,
  - It's possible to say VMUI is a Mantine-based React component. Nice framework! 
 
 ![playground](/images/playground.gif)
-![playground](./public/images/playground.gif)
+![playground](../public/images/playground.gif)
 
 # 4. Demo Apps
 
@@ -163,7 +162,7 @@ Note that the collection of demo apps with this mini-project uses a shared Reduc
 │   ├── ComponentsDemo.js
 ```
 ![components](/images/components.gif)
-![components](./public/images/components.gif)
+![components](../public/images/components.gif)
 
 ## 4.2 Writing a simple vending machine
 
@@ -195,7 +194,7 @@ We finalize the design of high-leve React component using the following example 
 ```
 
 ![simplemachine](/images/simplemachine.gif)
-![simplemachine](./public/images/simplemachine.gif)
+![simplemachine](../public/images/simplemachine.gif)
 
 ## 4.3 Writing a simple vending machine with controls
 ```
@@ -236,7 +235,7 @@ We finalize the design of high-leve React component using the following example 
   export default SimpleMachineWithControls;
 ```
 ![simplemachinewithcontrols](/images/simplemachinewithcontrols.gif)
-![simplemachinewithcontrols](./public/images/simplemachinewithcontrols.gif)
+![simplemachinewithcontrols](../public/images/simplemachinewithcontrols.gif)
 
 ## 4.4 Writing a polished vending machine
 
@@ -293,7 +292,7 @@ export default Polished;
 
 ```
 ![polished](/images/polished.gif)
-![polished](./public/images/polished.gif)
+![polished](../public/images/polished.gif)
 
 # 5. The codebase structure and running the demo apps on your machine
 
