@@ -1,4 +1,4 @@
-![alt](/images/vmui.png)
+![vmui](./public/images/vmui.png)
 
 # Developing Vending Machine UIs using VMUI
 
