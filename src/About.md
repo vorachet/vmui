@@ -150,7 +150,7 @@ To have flexibility in the development of different vending machine assortments,
 ![](/images/playground.gif)
 ![](./public/images/playground.gif)
 
-# System Deign
+# System Analysis
 
 ## Logical Architecture
 
@@ -158,9 +158,6 @@ How the vending machine will work to fulfill the required system operations
 
 ![](/images/logicalstructure.png)
 ![](./public/images/logicalstructure.png)
-
-![](/images/logicalfunctions.png)
-![](./public/images/logicalfunctions.png)
 
 
 # Demo Apps
