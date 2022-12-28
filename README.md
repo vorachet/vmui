@@ -7,14 +7,12 @@ Vorachet Jaroensawas
 
 VMUI (Vending Machine User Interface) is a simple vending machine simulator that allows a user to purchase items from a vending machine. The vending machine has a set of items with prices, and the user can select an item and enter their payment to receive the item. There are several benefits to using a vending machine simulator: Practice React coding: Creating a vending machine simulator can be a good way to practice coding and problem-solving skills, Understand how vending machines work, and Test ideas in designing React components.
 
-
-
 ![](/images/concept.png)
 ![](./public/images/concept.png)
 
 Fig 1. shows the structure of vending machine and part definition that will be implemented in VMUI
 
-![](/images/OpsProcesses.png))
+![](/images/OpsProcesses.png)
 ![](./public/images/OpsProcesses.png)
 
 Fig 2. Operations of Interest
@@ -151,6 +149,15 @@ To have flexibility in the development of different vending machine assortments,
 ![](/images/playground.gif)
 ![](./public/images/playground.gif)
 
+# System Deign
+
+## Logical Architecture
+
+How the vending machine will work to fulfil the reqiured system operations
+
+![](/images/logicalstructure.png)
+![](./public/images/logicalstructure.png)
+
 # Demo Apps
 
 Note that the collection of demo apps with this mini-project uses a shared Redux store.
@@ -194,7 +201,6 @@ We finalize the design of high-leve React component using the following example 
 ```
 ![](/images/simplemachine.png)
 ![](./public/images/simplemachine.png)
-
 
 ![](/images/simplemachine.gif)
 ![](./public/images/simplemachine.gif)
@@ -240,8 +246,10 @@ We finalize the design of high-leve React component using the following example 
 
 ![](/images/simplemachinewithcontrols.png)
 ![](./public/images/simplemachinewithcontrols.png)
+
 ![](/images/inventory.png)
 ![](./public/images/inventory.png)
+
 ![](/images/simplemachinewithcontrols.gif)
 ![](./public/images/simplemachinewithcontrols.gif)
 
@@ -301,6 +309,7 @@ export default Polished;
 ```
 ![](/images/polished.png)
 ![](./public/images/polished.png)
+
 ![](/images/polished.gif)
 ![](./public/images/polished.gif)
 
@@ -316,7 +325,7 @@ export default Polished;
          ├── VMSdk.js 
 ```
 
-## Downloads packages and dependencies.
+## Downloading packages and dependencies.
 
 ```
 npm install

@@ -13,7 +13,7 @@ VMUI (Vending Machine User Interface) is a simple vending machine simulator that
 
 Fig 1. shows the structure of vending machine and part definition that will be implemented in VMUI
 
-![](/images/OpsProcesses.png))
+![](/images/OpsProcesses.png)
 ![](./public/images/OpsProcesses.png)
 
 Fig 2. Operations of Interest
@@ -150,6 +150,15 @@ To have flexibility in the development of different vending machine assortments,
 ![](/images/playground.gif)
 ![](./public/images/playground.gif)
 
+# System Deign
+
+## Logical Architecture
+
+How the vending machine will work to fulfil the reqiured system operations
+
+![](/images/logicalstructure.png)
+![](./public/images/logicalstructure.png)
+
 # Demo Apps
 
 Note that the collection of demo apps with this mini-project uses a shared Redux store.
@@ -193,7 +202,6 @@ We finalize the design of high-leve React component using the following example 
 ```
 ![](/images/simplemachine.png)
 ![](./public/images/simplemachine.png)
-
 
 ![](/images/simplemachine.gif)
 ![](./public/images/simplemachine.gif)
@@ -315,7 +323,7 @@ export default Polished;
          ├── VMSdk.js 
 ```
 
-## Downloads packages and dependencies.
+## Downloading packages and dependencies.
 
 ```
 npm install
