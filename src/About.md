@@ -1,27 +1,25 @@
-![alt](/images/vmui.png)
+
 
 # Developing Vending Machine UIs using VMUI
-Vorachet Jaroensawas | AOT
+Vorachet Jaroensawas
 
-## Online Demo Apps
+# VMUI
 
-https://vmui.surge.sh
+VMUI (Vending Machine User Interface) is a simple vending machine simulator that allows a user to purchase items from a vending machine. The vending machine has a set of items with prices, and the user can select an item and enter their payment to receive the item. There are several benefits to using a vending machine simulator: Practice React coding: Creating a vending machine simulator can be a good way to practice coding and problem-solving skills, Understand how vending machines work, and Test ideas in designing React components.
 
-# 1. The concepts.
 
-Key operational actors and entities were analyzed to see what the users of vending machines needed to accomplish. The concept and part definition of the target vending machine are depicted in Fig. 1. Figure 2 depicts the processes of the statement of work we will create for a vending machine simulator.
+![](/images/concept.png)
+![](./public/images/concept.png)
 
-Fig 1. The structural concept of target vending machine
+Fig 1. shows the structure of vending machine and part definition that will be implemented in VMUI
 
-![concept](/images/concept.png)
-![concept](../public/images/concept.png)
+![](/images/OpsProcesses.png))
+![](./public/images/OpsProcesses.png)
 
 Fig 2. Operations of Interest
 
-![OpsProcesses](/images/OpsProcesses.png))
-![OpsProcesses](../public/images/OpsProcesses.png)
 
-## 1.1 The operations of vending machines and their associations with actors 
+## The operations of vending machines and their associations with actors 
 
   - System::provideProductAssortment
     - User::viewProducts
@@ -42,9 +40,14 @@ Fig 2. Operations of Interest
   - System::provideTrayInstallation
     - Owner::configureTray
 
+![](/images/OpsStructure.png)
+![](./public/images/OpsStructure.png)
+
+Fig 3. Structure of operations
+
 * Note that we did not do anything with the following operations at this time; System::maintainCertainTemperature (Onwer::setTemperature) and System::provideCashbox (Owner::collectCash)
 
-## 1.2 Allocating the system operations to the high-level software components
+## Allocating the system operations to the high-level software components
 
 To partially realize the abstraction in Fig. 1, the following software components were introduced to interact with the required system operations.
 
@@ -63,11 +66,11 @@ To partially realize the abstraction in Fig. 1, the following software component
     - Owner::refilProducts <-> System::provideProductInstallation
     - Owner::configureTray <-> System::provideTrayInstallation
 
-# 2. The intended design for VMUI users and the validation
+# The intended design and the validation
 
-The ultimate goal of this mini-project is to facilitate the VMUI users' ability to develop React-based vending machine simulators more easily, so there will be high-level components that help ease the development tasks. 
+The ultimate goal of this mini-project is to make it easier to develop configurable vending machine simulators, so there will be high-level components that ease the development tasks.
 
-## 2.1 High-level React components
+## High-level React components
 ```
   import { VMUI } from "..."
   import { VMSdk } from "..."
@@ -75,26 +78,25 @@ The ultimate goal of this mini-project is to facilitate the VMUI users' ability 
   const PRODUCTS = {...}
   function VendingMachine() {
     return (
-      <VMUI.Assortment layout={LAYOUT} products={PRODUCTS} />  // Usage for `Software::Assortment`  See 1.2
-      <VMUI.CashAcceptor />     // Usage for Software::CashAcceptor See 1.2
-      <VMUI.Pickup />          // Usage for Software::Pickup See 1.2
-      <VMUI.AdminControls />   // Usage for Software::Inventory and Software::AdminControls See 1.2
+      <VMUI.Assortment layout={LAYOUT} products={PRODUCTS} />  
+      <VMUI.CashAcceptor />    
+      <VMUI.Pickup />      
+      <VMUI.AdminControls />   
     )
   }
 ```
 
-## 2.2 The validators
-To provide objective evidence that the VMUI users evaluate this mini-project quickly, we will provide the following work product.
-  - Demo and how to write a simple vending machine
-  - Demo and how to write a simple machine with controls
-  - Demo and how to write a polished machine 
-  - VMUI React components demo 
+To provide objective evidence that the VMUI users evaluate this mini-project quickly, this codebase comes with the following apps.
+  - A simple vending machine
+  - A simple machine with controls
+  - A polished machine 
+  - VMUI components demo
 
-# 3. Challenge, the representation of physical assortment, trays, and sockets
+# The representation of physical assortment, trays, and sockets
 
-The vending machine that automatically shows buyable products that match the amount of coins added to the machine seems to be the target for our first MVP. Most modern machines offer this service flow, which we often see in real life.  Note that most commercial machines use a spiral spring to control a dispenser that does not require the user to enter the product but instead instantly touches the screen of the button of a buyable product. An assortment (See Fig1) is a collection of slots used to store products. Machines that sell a wide range of products often have different assortment models. At this point, this project should have a number of assortment models for configuration options. Assortments can have different slots and widths in each row to allow for the real-world vending machine. 
+The vending machine that automatically shows buyable products that match the amount of coins added to the machine seems to be the target for our first MVP. Most modern machines offer this service flow, which we often see in real life. Note that most commercial machines use a spiral spring to control a dispenser that does not require the user to enter the product but instead instantly touches the screen of the button of a buyable product. An assortment (see Fig. 1) is a collection of slots used to store products. Machines that sell a wide range of products often have different assortment models. At this point, this project should have a number of assortment models for configuration options. Assortments can have different slots and widths in each row to allow for the real-world vending machine.
 
-## 3.1 Designing Tray Model
+## Designing Tray Models
 
 The examples of physical assortment and the represenation of assortment in Javascript 2D array
 
@@ -141,36 +143,33 @@ const trayModel = [
   [12,12,24,24,24,24,24],
 ];
 ```
-## 3.2 We have built a Tray Render Engine
+## We have built a Tray Render Engine
 
 To have flexibility in the development of different vending machine assortments, we need a render engine that understands the Javascript 2D array introduced in the previous section.
 
- - By simplifying the creation of the grid system and sevearl web work, we use https://mantine.dev/
- - It's possible to say VMUI is a Mantine-based React component. Nice framework! 
+![](/images/playground.gif)
+![](./public/images/playground.gif)
 
-![playground](/images/playground.gif)
-![playground](../public/images/playground.gif)
+# Demo Apps
 
-# 4. Demo Apps
+Note that the collection of demo apps with this mini-project uses a shared Redux store.
 
-Note that the collection of demo apps with this mini-project uses a shared Reducx store.
+## ComponentsDemo for Learning VMUI Components
 
-## 4.1 ComponentsDemo for Learning VMUI Components
+![](/images/componentsdemo.png)
+![](./public/images/componentsdemo.png)
 
-```
-├── apps
-│   ├── ComponentsDemo.js
-```
-![components](/images/components.gif)
-![components](../public/images/components.gif)
+![](/images/components.gif)
+![](./public/images/components.gif)
 
-## 4.2 Writing a simple vending machine
+# Writing a simple vending machine
 
 We finalize the design of high-leve React component using the following example code
 ```
 ├── apps
 │   ├── SimpleMachine.js
 ```
+
 
 ```
   import { VMUI } from "../vmdk/ui/VMUI"
@@ -192,11 +191,14 @@ We finalize the design of high-leve React component using the following example 
   export default SimpleMachine;
 
 ```
+![](/images/simplemachine.png)
+![](./public/images/simplemachine.png)
 
-![simplemachine](/images/simplemachine.gif)
-![simplemachine](../public/images/simplemachine.gif)
 
-## 4.3 Writing a simple vending machine with controls
+![](/images/simplemachine.gif)
+![](./public/images/simplemachine.gif)
+
+## Writing a simple vending machine with controls
 ```
 ├── apps
 │   └── SimpleMachineWithControls.js
@@ -234,10 +236,15 @@ We finalize the design of high-leve React component using the following example 
 
   export default SimpleMachineWithControls;
 ```
-![simplemachinewithcontrols](/images/simplemachinewithcontrols.gif)
-![simplemachinewithcontrols](../public/images/simplemachinewithcontrols.gif)
 
-## 4.4 Writing a polished vending machine
+![](/images/simplemachinewithcontrols.png)
+![](./public/images/simplemachinewithcontrols.png)
+![](/images/inventory.png)
+![](./public/images/inventory.png)
+![](/images/simplemachinewithcontrols.gif)
+![](./public/images/simplemachinewithcontrols.gif)
+
+## Writing a polished vending machine
 
 ```
 ├── apps
@@ -291,62 +298,37 @@ We finalize the design of high-leve React component using the following example 
 export default Polished;
 
 ```
-![polished](/images/polished.gif)
-![polished](../public/images/polished.gif)
+![](/images/polished.png)
+![](./public/images/polished.png)
+![](/images/polished.gif)
+![](./public/images/polished.gif)
 
-# 5. The codebase structure and running the demo apps on your machine
+# The codebase
 
 ```
-├── apps
-│   ├── ComponentsDemo.js
-│   ├── Polished.js
-│   ├── SimpleMachine.js
-│   └── SimpleMachineWithControls.js
-├── tests
-│   └── VMSdk.test.js
-└── vmdk
-    ├── VMSdk.js
-    ├── state
-    │   ├── CashAcceptorReducer.js
-    │   ├── EventStreamReducer.js
-    │   ├── InventoryReducer.js
-    │   ├── MachineReducer.js
-    │   ├── PickupReducer.js
-    │   └── Store.js
-    └── ui
-        ├── Assortment.js
-        ├── CashAcceptor.js
-        ├── EventStreamView.js
-        ├── GenerateDispenserDBButton.js
-        ├── ImageSizeAdjustmentSlider.js
-        ├── InventoryModalButton.js
-        ├── OutOfStockWarningAdjustmentSlider.js
-        ├── Pickup.js
-        ├── PlaygroundEditorModalButton.js
-        ├── RefilInventory.js
-        ├── SetBrand.js
-        ├── SetCurrency.js
-        ├── SetPredefinedCoins.js
-        ├── StdTitle.js
-        ├── VMUI.js
-        ├── ViewDispenserButton.js
-        └── ViewTrayModelButton.js
+├── apps                  ExampleApps
+├── tests                 Unit Tests
+└── vmdk                   
+    ├── VMSdk.js          VMSU SDK 
+    ├── state             VMUI Redux Stores
+    └── ui                VMUI Components
+         ├── VMSdk.js 
 ```
 
-## 5.1 Downloads packages and dependencies.
+## Downloads packages and dependencies.
 
 ```
 npm install
 ```
 
-## 5.2 Running the VMUI Demo Apps
+## Running the VMUI Demo Apps
 ```
 npm start
 
 Open http://localhost:3000/
 ```
 
-## 5.3 Running Unit tests
+## Running Unit tests
 
 The project currently has one unit test. It was used to test the implementation of the 2D array tray model.
 ```
@@ -374,7 +356,7 @@ npm run test
 Test Suites: 1 passed, 1 total
 ```
 
-## 5.4 Building the app
+## Building the app
 
 ```
 npm run build
@@ -397,3 +379,7 @@ File sizes after gzip:
   953 B      build/static/js/180.dfda9907.chunk.js
 
 ```
+
+# Online Demo Apps
+
+https://vmui.surge.sh
