@@ -16,7 +16,7 @@ const DISPENSER_DB =
     "limit": 10,
     "name": "Redbull",
     "price": 26,
-    "image": "/images/redbull.png",
+    "image": "/vmui/images/redbull.png",
     "qty": 10
   },
   "1-2": {
@@ -24,7 +24,7 @@ const DISPENSER_DB =
     "limit": 10,
     "name": "Redbull",
     "price": 26,
-    "image": "/images/redbull.png",
+    "image": "/vmui/images/redbull.png",
     "qty": 10
   },
   "1-3": {
@@ -32,7 +32,7 @@ const DISPENSER_DB =
     "limit": 10,
     "name": "Gum",
     "price": 26,
-    "image": "/images/gum.png",
+    "image": "/vmui/images/gum.png",
     "qty": 10
   },
   "1-4": {
@@ -40,7 +40,7 @@ const DISPENSER_DB =
     "limit": 10,
     "name": "Snack",
     "price": 26,
-    "image": "/images/snack.png",
+    "image": "/vmui/images/snack.png",
     "qty": 10
   },
   "1-5": {
@@ -48,7 +48,7 @@ const DISPENSER_DB =
     "limit": 10,
     "name": "Snack",
     "price": 40,
-    "image": "/images/snack.png",
+    "image": "/vmui/images/snack.png",
     "qty": 10
   },
   "2-1": {
@@ -56,7 +56,7 @@ const DISPENSER_DB =
     "limit": 5,
     "name": "Cola",
     "price": 40,
-    "image": "/images/cola.png",
+    "image": "/vmui/images/cola.png",
     "qty": 5
   },
   "2-2": {
@@ -64,7 +64,7 @@ const DISPENSER_DB =
     "limit": 5,
     "name": "Cola",
     "price": 40,
-    "image": "/images/cola.png",
+    "image": "/vmui/images/cola.png",
     "qty": 5
   },
   "2-3": {
@@ -72,7 +72,7 @@ const DISPENSER_DB =
     "limit": 5,
     "name": "Snack",
     "price": 40,
-    "image": "/images/snack.png",
+    "image": "/vmui/images/snack.png",
     "qty": 5
   },
   "2-4": {
@@ -80,7 +80,7 @@ const DISPENSER_DB =
     "limit": 5,
     "name": "Redbull",
     "price": 26,
-    "image": "/images/redbull.png",
+    "image": "/vmui/images/redbull.png",
     "qty": 5
   },
   "2-5": {
@@ -88,7 +88,7 @@ const DISPENSER_DB =
     "limit": 5,
     "name": "Cola",
     "price": 14,
-    "image": "/images/gum.png",
+    "image": "/vmui/images/gum.png",
     "qty": 5
   },
   "2-6": {
@@ -96,7 +96,7 @@ const DISPENSER_DB =
     "limit": 5,
     "name": "Gum",
     "price": 37,
-    "image": "/images/gum.png",
+    "image": "/vmui/images/gum.png",
     "qty": 5
   },
   "3-1": {
@@ -104,7 +104,7 @@ const DISPENSER_DB =
     "limit": 1,
     "name": "PC",
     "price": 800,
-    "image": "/images/laptop.png",
+    "image": "/vmui/images/laptop.png",
     "qty": 1
   },
   "3-2": {
@@ -112,7 +112,7 @@ const DISPENSER_DB =
     "limit": 1,
     "name": "iMac",
     "price": 1000,
-    "image": "/images/computer.png",
+    "image": "/vmui/images/computer.png",
     "qty": 1
   }
 }

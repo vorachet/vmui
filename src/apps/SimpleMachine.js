@@ -11,7 +11,7 @@ const DISPENSER_DB =
     "limit": 10,
     "name": "Gum",
     "price": 12,
-    "image": "/images/gum.png",
+    "image": "/vmui/images/gum.png",
     "qty": 3
   },
   "1-2": {
@@ -19,7 +19,7 @@ const DISPENSER_DB =
     "limit": 10,
     "name": "Snack",
     "price": 20,
-    "image": "/images/snack.png",
+    "image": "/vmui/images/snack.png",
     "qty": 3
   },
   "2-1": {
@@ -27,7 +27,7 @@ const DISPENSER_DB =
     "limit": 10,
     "name": "Redbull",
     "price": 30,
-    "image": "/images/redbull.png",
+    "image": "/vmui/images/redbull.png",
     "qty": 3
   },
   "2-2": {
@@ -36,7 +36,7 @@ const DISPENSER_DB =
     "name": "Cola",
     "descr": "Cola",
     "price": 40,
-    "image": "/images/cola.png",
+    "image": "/vmui/images/cola.png",
     "qty": 3
   }
 }

@@ -101,21 +101,21 @@ const PREDEFINED_PRODUCTS = [
   {
     name: "Snack",
     price: VMSdk.randomInt(12, 50),
-    image: "/images/snack.png"
+    image: "/vmui/images/snack.png"
   },
   {
     name: "Redbull",
     price: VMSdk.randomInt(12, 50),
-    image: "/images/redbull.png"
+    image: "/vmui/images/redbull.png"
   },
   {
     name: "Cola",
     price: VMSdk.randomInt(12, 50),
-    image: "/images/cola.png"
+    image: "/vmui/images/cola.png"
   },
   {
     name: "Gum",
     price: VMSdk.randomInt(12, 50),
-    image: "/images/gum.png"
+    image: "/vmui/images/gum.png"
   }
 ];

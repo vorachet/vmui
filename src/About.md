@@ -10,12 +10,12 @@ Demo: https://vorachet.github.io/vmui
 VMUI (Vending Machine User Interface) is a simple vending machine simulator that allows a user to purchase items from a vending machine. The vending machine has a set of items with prices, and the user can select an item and enter their payment to receive the item. There are several benefits to using a vending machine simulator: Practice React coding: Creating a vending machine simulator can be a good way to practice coding and problem-solving skills, Understand how vending machines work, and Test ideas in designing React components.
 
 
-![](/images/concept.png)
+![](/vmui/images/concept.png)
 ![](./public/images/concept.png)
 
 Fig 1. shows the structure of vending machine and part definition that will be implemented in VMUI
 
-![](/images/OpsProcesses.png)
+![](/vmui/images/OpsProcesses.png)
 ![](./public/images/OpsProcesses.png)
 
 Fig 2. Operations of Interest
@@ -42,7 +42,7 @@ Fig 2. Operations of Interest
   - System::provideTrayInstallation
     - Owner::configureTray
 
-![](/images/OpsStructure.png)
+![](/vmui/images/OpsStructure.png)
 ![](./public/images/OpsStructure.png)
 
 Fig 3. Structure of operations
@@ -149,7 +149,7 @@ const trayModel = [
 
 To have flexibility in the development of different vending machine assortments, we need a render engine that understands the Javascript 2D array introduced in the previous section.
 
-![](/images/playground.gif)
+![](/vmui/images/playground.gif)
 ![](./public/images/playground.gif)
 
 # System Analysis
@@ -158,7 +158,7 @@ To have flexibility in the development of different vending machine assortments,
 
 How the vending machine will work to fulfill the required system operations
 
-![](/images/logicalstructure.png)
+![](/vmui/images/logicalstructure.png)
 ![](./public/images/logicalstructure.png)
 
 
@@ -168,10 +168,10 @@ Note that the collection of demo apps with this mini-project uses a shared Redux
 
 ## ComponentsDemo for Learning VMUI Components
 
-![](/images/componentsdemo.png)
+![](/vmui/images/componentsdemo.png)
 ![](./public/images/componentsdemo.png)
 
-![](/images/components.gif)
+![](/vmui/images/components.gif)
 ![](./public/images/components.gif)
 
 # Writing a simple vending machine
@@ -203,10 +203,10 @@ We finalize the design of high-leve React component using the following example 
   export default SimpleMachine;
 
 ```
-![](/images/simplemachine.png)
+![](/vmui/images/simplemachine.png)
 ![](./public/images/simplemachine.png)
 
-![](/images/simplemachine.gif)
+![](/vmui/images/simplemachine.gif)
 ![](./public/images/simplemachine.gif)
 
 ## Writing a simple vending machine with controls
@@ -248,11 +248,11 @@ We finalize the design of high-leve React component using the following example 
   export default SimpleMachineWithControls;
 ```
 
-![](/images/simplemachinewithcontrols.png)
+![](/vmui/images/simplemachinewithcontrols.png)
 ![](./public/images/simplemachinewithcontrols.png)
-![](/images/inventory.png)
+![](/vmui/images/inventory.png)
 ![](./public/images/inventory.png)
-![](/images/simplemachinewithcontrols.gif)
+![](/vmui/images/simplemachinewithcontrols.gif)
 ![](./public/images/simplemachinewithcontrols.gif)
 
 ## Writing a polished vending machine
@@ -309,9 +309,9 @@ We finalize the design of high-leve React component using the following example 
 export default Polished;
 
 ```
-![](/images/polished.png)
+![](/vmui/images/polished.png)
 ![](./public/images/polished.png)
-![](/images/polished.gif)
+![](/vmui/images/polished.gif)
 ![](./public/images/polished.gif)
 
 # The codebase
@@ -382,10 +382,10 @@ https://vmui.surge.sh
 
 ## Basic App Composition
 
-![](/images/basiccomponents.png)
+![](/vmui/images/basiccomponents.png)
 ![](./public/images/basiccomponents.png)
 
 ## Redux Usage
 
-![](/images/reduxusage.png)
+![](/vmui/images/reduxusage.png)
 ![](./public/images/reduxusage.png)
