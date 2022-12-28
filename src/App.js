@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import { Loader, MantineProvider } from '@mantine/core';
 import { NotificationsProvider } from '@mantine/notifications';
 import { Provider } from 'react-redux';
@@ -13,7 +13,7 @@ const ComponentsDemo = React.lazy(() => import('./apps/ComponentsDemo'));
 const SimpleMachine = React.lazy(() => import('./apps/SimpleMachine'));
 const SimpleMachineWithControls = React.lazy(() => import('./apps/SimpleMachineWithControls'));
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Nav />,

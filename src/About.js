@@ -1,7 +1,8 @@
 import { Container, Image } from '@mantine/core';
 import { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown'
-import docPath from './About.md'
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import docPath from './About.md';
 
 /**
  * About this project
@@ -10,9 +11,6 @@ import docPath from './About.md'
  */
 export default function About() {
   const [doc, setDoc] = useState();
-  const renderers = {
-    image: () => (<Image style={{ width: 475 }} />),
-  };
   useEffect(() => {
     fetch(docPath).then((response) => response.text()).then((text) => {
       setDoc(text);
@@ -21,7 +19,7 @@ export default function About() {
 
   return (
     <Container fluid>
-      <ReactMarkdown renderers={renderers}>{doc}</ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} >{doc}</ReactMarkdown>
     </Container>
   );
 }
