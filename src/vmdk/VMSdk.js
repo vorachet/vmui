@@ -1,5 +1,5 @@
 /**
- * Redux Store for EventStream Behaviors
+ * VMSdk - Vending Machine Builder
  * @author Vorachet Jaroensawas
  * @returns VMSdk Object
  */

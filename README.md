@@ -373,23 +373,19 @@ npm run build
 
 ```
 
-Size of JS built files -- last updated on 27 Dec 2022
-```
-File sizes after gzip:
-
-  147.68 kB  build/static/js/main.007705d0.js
-  46.9 kB    build/static/js/123.d89a26ea.chunk.js
-  9.76 kB    build/static/js/510.bf696482.chunk.js
-  4.85 kB    build/static/js/8.1b845bf8.chunk.js
-  4.21 kB    build/static/js/169.f5537f72.chunk.js
-  2.47 kB    build/static/js/619.87a940de.chunk.js
-  2.18 kB    build/static/js/315.c694c99c.chunk.js
-  1.77 kB    build/static/js/308.91f1dfe3.chunk.js
-  1.73 kB    build/static/js/27.939f971b.chunk.js
-  953 B      build/static/js/180.dfda9907.chunk.js
-
-```
 
 # Online Demo Apps
 
 https://vmui.surge.sh
+
+# Implementation view
+
+## Basic App Composition
+
+![](/images/basiccomponents.png)
+![](./public/images/basiccomponents.png)
+
+## Redux Usage
+
+![](/images/reduxusage.png)
+![](./public/images/reduxusage.png)
