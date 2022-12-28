@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/vmui/static/js/main.f66fcbe7.js",
+    "main.js": "/vmui/static/js/main.15f39367.js",
     "static/js/308.91f1dfe3.chunk.js": "/vmui/static/js/308.91f1dfe3.chunk.js",
     "static/js/180.dfda9907.chunk.js": "/vmui/static/js/180.dfda9907.chunk.js",
     "static/js/315.c694c99c.chunk.js": "/vmui/static/js/315.c694c99c.chunk.js",
@@ -19,6 +19,6 @@
     "index.html": "/vmui/index.html"
   },
   "entrypoints": [
-    "static/js/main.f66fcbe7.js"
+    "static/js/main.15f39367.js"
   ]
 }
