@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/static/js/main.75ee850e.js",
+    "static/js/308.91f1dfe3.chunk.js": "/static/js/308.91f1dfe3.chunk.js",
+    "static/js/180.dfda9907.chunk.js": "/static/js/180.dfda9907.chunk.js",
+    "static/js/315.c694c99c.chunk.js": "/static/js/315.c694c99c.chunk.js",
+    "static/js/619.87a940de.chunk.js": "/static/js/619.87a940de.chunk.js",
+    "static/js/510.bf696482.chunk.js": "/static/js/510.bf696482.chunk.js",
+    "static/js/27.939f971b.chunk.js": "/static/js/27.939f971b.chunk.js",
+    "static/js/123.d89a26ea.chunk.js": "/static/js/123.d89a26ea.chunk.js",
+    "static/js/169.f5537f72.chunk.js": "/static/js/169.f5537f72.chunk.js",
+    "static/js/8.1b845bf8.chunk.js": "/static/js/8.1b845bf8.chunk.js",
+    "static/media/coin.wav": "/static/media/coin.05482570c4509dd1e54e.wav",
+    "static/media/coinDrop.wav": "/static/media/coinDrop.e35a6b4dac3d415d7770.wav",
+    "static/media/pickup.wav": "/static/media/pickup.49adb4e02e896439cd63.wav",
+    "static/media/thankyou.mp3": "/static/media/thankyou.92e05360bef70fb66a04.mp3",
+    "static/media/About.md": "/static/media/About.0082a41c377f58de5038.md",
+    "static/media/click.wav": "/static/media/click.da8c19dff50659cae4ca.wav",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/js/main.75ee850e.js"
+  ]
+}
