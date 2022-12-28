@@ -2,7 +2,7 @@
   "name": "vmui",
   "version": "0.1.0",
   "author": "Vorachet Jaroensawas",
-  "homepage": "https://vorachet.github.io/vmui",
+  "homepage": "https://vorachet.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
