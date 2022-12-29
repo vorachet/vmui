@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/vmui/static/js/main.f959ccbf.js",
+    "main.js": "/vmui/static/js/main.83028ee6.js",
     "static/js/308.48213245.chunk.js": "/vmui/static/js/308.48213245.chunk.js",
     "static/js/180.dfda9907.chunk.js": "/vmui/static/js/180.dfda9907.chunk.js",
     "static/js/315.23ba7a0c.chunk.js": "/vmui/static/js/315.23ba7a0c.chunk.js",
@@ -14,11 +14,11 @@
     "static/media/coinDrop.wav": "/vmui/static/media/coinDrop.e35a6b4dac3d415d7770.wav",
     "static/media/pickup.wav": "/vmui/static/media/pickup.49adb4e02e896439cd63.wav",
     "static/media/thankyou.mp3": "/vmui/static/media/thankyou.92e05360bef70fb66a04.mp3",
-    "static/media/About.md": "/vmui/static/media/About.27f156914c039377b8a4.md",
+    "static/media/About.md": "/vmui/static/media/About.8218883299577c718abb.md",
     "static/media/click.wav": "/vmui/static/media/click.da8c19dff50659cae4ca.wav",
     "index.html": "/vmui/index.html"
   },
   "entrypoints": [
-    "static/js/main.f959ccbf.js"
+    "static/js/main.83028ee6.js"
   ]
 }

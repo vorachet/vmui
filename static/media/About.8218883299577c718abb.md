@@ -3,6 +3,8 @@
 # Developing Vending Machine UIs using VMUI
 Vorachet Jaroensawas
 
+Demo: https://vorachet.github.io/vmui
+
 # VMUI
 
 VMUI (Vending Machine User Interface) is a simple vending machine simulator that allows a user to purchase items from a vending machine. The vending machine has a set of items with prices, and the user can select an item and enter their payment to receive the item. There are several benefits to using a vending machine simulator: Practice React coding: Creating a vending machine simulator can be a good way to practice coding and problem-solving skills, Understand how vending machines work, and Test ideas in designing React components.
@@ -371,10 +373,6 @@ Test Suites: 1 passed, 1 total
 npm run build
 
 ```
-
-# Online Demo Apps
-
-https://vmui.surge.sh
 
 # Implementation view
 
