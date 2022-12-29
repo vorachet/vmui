@@ -374,10 +374,6 @@ npm run build
 
 ```
 
-# Online Demo Apps
-
-https://vmui.surge.sh
-
 # Implementation view
 
 ## Basic App Composition
